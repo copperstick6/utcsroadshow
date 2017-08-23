@@ -1,0 +1,47 @@
+body {
+  color: #666;
+  font-family: 'Open Sans', Century Gothic, Helvetica;
+}
+
+h1 {
+  font-size: 4.5em;
+  color: #B56012;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Economica', 'Dosis';
+  text-transform: uppercase;
+  font-size: 2em;
+  margin: 4px;
+}
+
+#what-we-do {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+}
+
+#description {
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.contact-info-wrapper {
+  margin: 0 40px;
+  width: 35%;
+  display: inline-block;
+  height: 500px;
+}
+
+.contact-info {
+  padding-top: 40px;
+  height: 200px;
+  background-image: url("images/contact.png");
+  background-size: 100% 100%;
+}
+
+.contact {
+  margin: 20px;
+}

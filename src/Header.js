@@ -21,20 +21,18 @@ export default class Header extends Component {
   }
   render() {
     return (
-      <div>
       <div id="header-container">
         <header>
           <nav>
-            <div><a href="#" onClick = {this.aboutClick}>About</a></div>
-            <div>&emsp;&emsp;&emsp;/&emsp;&emsp;</div>
-            <div><a href="#" onClick = {this.eventsClick}>Events</a></div>
+            <div class="nav-elem"><a href="#" onClick = {this.aboutClick}>About</a></div>
+            <div class="nav-elem">&emsp;&emsp;&emsp;/&emsp;&emsp;</div>
+            <div class="nav-elem"><a href="#" onClick = {this.eventsClick}>Events</a></div>
             <a href="index.html"><img id="logo" alt="logo" src="images/logo.png" /></a>
-            <div><a href="#" onClick = {this.contactClick}>Contact</a></div>
-            <div>&emsp;&emsp;&emsp;/&emsp;&emsp;</div>
-            <div><a href="#" onClick = {this.joinClick}>Join</a></div>
+            <div class="nav-elem"><a href="#" onClick = {this.contactClick}>Contact</a></div>
+            <div class="nav-elem">&emsp;&emsp;&emsp;/&emsp;&emsp;</div>
+            <div class="nav-elem"><a href="#" onClick = {this.joinClick}>Join</a></div>
           </nav>
         </header>
-      </div>
       </div>
     );
   }

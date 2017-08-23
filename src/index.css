@@ -4,7 +4,7 @@
 }
 
 h1 {
-  font-family: 'Economica', 'Dosis';
+  font-family: 'Warsaw Gothic';
   text-transform: uppercase;
   font-size: 3em;
 }
@@ -50,13 +50,9 @@ nav {
   text-transform: uppercase;
 }
 
-nav a {
-  text-decoration: none;
-  color: #eee;
-}
 
 .nav-elem {
-  margin: 0 30px;
+  margin: 30px;
   height: 100px;
   margin-top: 30px;
   vertical-align: middle;
@@ -92,10 +88,10 @@ header div {
 
 #banner {
   text-align: center;
-  height: 800px;
+  height: 700px;
   width: 100%;
-  margin-top: -50px;
-  opacity: .4;
+  margin-top: 50px;
+  opacity: .45;
   background-image: url(images/banner.jpg);
   background-size: 100% auto;
 }
@@ -128,8 +124,23 @@ header div {
   position: absolute;
   font-weight: bold;
   top: 110px;
-  left: 160px;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 5em;
 }
+#title-img p {
+  font-family: 'Open Sans', Century Gothic, Helvetica;
+  color: black;
+  font-weight: bold;
+  top: 100px;
+  left:100px;
+  text-align: left;
+  margin-left: 550px;
+  margin-right: 100px;
+  margin-top: 120px;
+  font-size: 0.25em;
+}
+
 
 #title-img img {
   height: 450px;
