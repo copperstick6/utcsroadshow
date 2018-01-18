@@ -95,6 +95,7 @@ header div {
   background-repeat: no-repeat;
 }
 
+
 #banner-bar {
   text-align: center;
   position: relative;
@@ -130,17 +131,19 @@ header div {
 #images {
   margin-top: 5px;
   align-items: center;
+  margin-right: 3cm;
 }
 
 #title-fade {
   font-family: 'Open Sans', Century Gothic, Helvetica;
   color: black;
   position: absolute;
-  text-align: left;
+  text-align: center;
   margin-top: 10px;
   font-size: 0.2em;
   padding: 20px;
-  background-color: rgba(173, 97, 30, .9);
+  background-color: rgba(173, 97, 30, .7);
+  margin-left: 2cm;
 }
 
 

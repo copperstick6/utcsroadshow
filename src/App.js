@@ -15,10 +15,12 @@ class App extends Component {
     var active = this.state.active;
     return (
       <div>
+	  <div id = "banner" /> 
       <Header callBackParent = {(newActive) => this.handler(newActive)}/>
       {active === 'Entry' ? ( <Entry initial = {this.state.active} callBackParent = {(newActive) => this.handler(newActive)} /> ) :
     	null }
       </div>
+
     );
   }
 }
