@@ -214,6 +214,10 @@ header div {
   font-size: .8em;
 }
 
+.ss-form {
+  text-align: left;
+}
+
 .ss-form-entry {
   margin: 8px;
 }
