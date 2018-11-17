@@ -34,7 +34,7 @@ export default class Entry extends Component {
     ]
     if(this.state.typed === true){
       console.log("entered")
-      appear = <div id ="title-fade"><Fade in={true} delay={100}><p>We visit local K-12 schools to teach students about Computer Science and other opportunities kids can take to get involved.</p></Fade></div>
+      appear = <div id ="title-fade"><Fade in={true} delay={100}><p>We go to local K-12 schools to teach students about Computer Science and other opportunities kids can take to get involved.</p></Fade></div>
       gallery = <div id="images"><ImageGallery items={images} showNav={false} showThumbnails={false} autoPlay = {true} slideDuration={5000}/></div>
     }
 
