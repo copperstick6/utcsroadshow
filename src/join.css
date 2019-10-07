@@ -1,0 +1,40 @@
+.join {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.join h1 { 
+  padding-top: 50px; 
+  padding-bottom: 20px
+}
+
+.join-button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #B56012;
+  color: white;
+  box-shadow: 2px 2px 5px #333;
+}
+
+.officers {
+  display: flex; 
+  flex-flow: wrap;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.officer-card {
+  padding: 10px;
+}
+
+.officer-photo {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.officer-position {
+  color: gray;
+}
+

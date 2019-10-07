@@ -1,165 +1,58 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  font-family: 'Warsaw Gothic';
-  text-transform: uppercase;
-  font-size: 3em;
-}
-
-@media screen and (max-width: 800px) {
-  body {
-    color:#000;
-  }
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  text-align: center;
-  width: auto;
-  font-family: 'Open Sans', Century Gothic, Helvetica;
-  font-weight: 300;
-  color: #eee;
-  /*background-color: #333;*/
-  height: 100%;
-}
-
-#more a {
-  text-decoration: none;
-  color: #eee;
-}
-
-body a {
-  text-decoration: none;
-  color: #B56012;
-}
-
-nav {
-  z-index: 1;
-  background-color: #333;
-  width: 100%;
-  height: 100px;
-  margin: 0 auto;
-  font-family: 'Economica';
-  color: #eee;
-  text-transform: uppercase;
-}
-
-
-.nav-elem {
-  margin: 30px;
-  height: 100px;
-  margin-top: 30px;
-  vertical-align: middle;
-}
-
-#header-container {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-header {
-  text-align: center;
-  background-color: #333;
-  height: 100px;
-  margin: 0 auto;
-}
-
-header div {
-  display: inline-block;
+@font-face {
+  font-family: Warsaw Gothic;
+  src: url("/WarsawGothic.otf") format("opentype");
 }
 
 .content {
   padding-top: 10%;
 }
 
-#logo {
-  width: 70px;
-  margin: 0 30px;
-  margin-top: 20px;
-}
-
-#banner {
-  text-align: center;
-  width: 100%;
-  margin-top: 100px;
-  opacity: .6;
+#title-banner {
   background-image: url(images/banner.jpg);
-  background-repeat: no-repeat;
-}
-
-
-#banner-bar {
-  text-align: center;
-  position: relative;
-  top: 100px;
-  height: 180px;
-  background-color: rgba(173, 97, 30, .75);
-  padding: 5px;
-}
-
-#banner-bar h1 {
-  padding: 25px;
-}
-
-#banner-bar p {
-  width: 600px;
-  margin: 0 auto;
-}
-@font-face {
-    font-family: Warsaw Gothic;
-    src: url("/WarsawGothic.otf") format("opentype");
+  width: 100vw;
 }
 
 #title-img {
   font-family: 'Warsaw Gothic';
   color: black;
-  position: absolute;
   font-weight: bold;
-  top: 110px;
-  text-align: left;
-  font-size: 5em;
-  padding-bottom: 50px;
+  text-align: center;
+  font-size: 7em;
 }
+
+.entry-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+  margin-left: 20vw;
+  margin-right: 5vw;
+}
+
+.entry-textbox {
+  padding: 20px;
+  font-family: 'Open Sans','Century Gothic', Helvetica;
+  text-align: center;
+  color: white;
+  margin: 20px auto;
+}
+
+#description { 
+  background-color: rgba(173, 97, 30, .7); 
+  vertical-align: middle;
+}
+
+#learn-more { background-color: rgba(146, 173, 166, .7); }
+#learn-more img { width: 100%;}
+
+#join-us { background-color: rgba(146, 173, 166, .7); }
+#join-us img { width: 100%;}
+
 #images {
   margin-top: 5px;
   align-items: center;
   margin-right: 3cm;
-}
-
-#title-fade {
-  font-family: 'Open Sans', Century Gothic, Helvetica;
-  color: black;
-  position: absolute;
-  text-align: center;
-  margin-top: 10px;
-  font-size: 0.2em;
-  padding: 20px;
-  background-color: rgba(173, 97, 30, .7);
-  margin-left: 2cm;
-}
-
-
-#title-img img {
-  height: 450px;
-}
-
-#title-text {
-  position: absolute;
-  top: 540px;
-  left: 160px;
-  background-color: rgba(173, 97, 30, .9);
-  width: 165px;
-  height: 100px;
-  padding: 15px;
-  font-size: .8em;
+  max-width: 50vw;
+  display: inline-block;
 }
 
 #play {
@@ -168,68 +61,12 @@ header div {
   background-image: url(images/play.png);
   background-size: 100% 100%;
   margin: 0 auto;
-
   position: relative;
   top: 160px;
 }
 
-#more {
-  position: absolute;
-  top: 475px;
-  left: 225px;
-  width: 800px;
-  height: 300px;
-  background-size: 100% auto;
-  text-align: center;
-  padding: 60px;
-}
-
-#more div {
-  vertical-align: top;
-  display: inline-block;
-  padding: 20px 40px;
-  margin: 5px;
-  height: auto;
-  width: 164px;
-  background-color: rgba(146, 173, 166, .9);
-  font-size: .8em;
-}
-#more img {
-  width: 100px;
-}
-
-#more div p {
-  margin: 10px;
-}
-
 #schedule-form {
-  padding: 20px;
+  margin-top: 20px;
+  width: 45vw;
   background-color: rgba(173,97,30,.9);
-  width: 460px;
-  height: 360px;
-  position: absolute;
-  overflow: hidden;
-  top: 120px;
-  left: 435px;
-  font-size: .8em;
-}
-
-.ss-form {
-  text-align: left;
-}
-
-.ss-form-entry {
-  margin: 8px;
-}
-
-.ss-form-entry div {
-  display: inline-block;
-}
-
-.ss-choice-item {
-  list-style: none;
-}
-
-#ss-submit {
-  text-align: center;
 }

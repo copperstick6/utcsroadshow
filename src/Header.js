@@ -35,13 +35,13 @@ export default class Header extends Component {
       <div id="header-container">
         <header>
           <nav>
-            <div class="nav-elem"><a href="#" onClick = {this.aboutClick}>About</a></div>
-            <div class="nav-elem">&emsp;&emsp;&emsp;/&emsp;&emsp;</div>
-            <div class="nav-elem"><a href="#" onClick = {this.eventsClick}>Events</a></div>
+            <div className="nav-elem"><a onClick = {this.aboutClick}>About</a></div>
+            <div className="nav-elem">&emsp;&emsp;&emsp;/&emsp;&emsp;</div>
+            <div className="nav-elem"><a onClick = {this.eventsClick}>Events</a></div>
             <a href="$" onClick = {this.homeClick}><img id="logo" alt="logo" src="images/logo.png" /></a>
-            <div class="nav-elem"><a href="#" onClick = {this.contactClick}>Contact</a></div>
-            <div class="nav-elem">&emsp;&emsp;&emsp;/&emsp;&emsp;</div>
-            <div class="nav-elem"><a href="#" onClick = {this.joinClick}>Join</a></div>
+            <div className="nav-elem"><a onClick = {this.contactClick}>Contact</a></div>
+            <div className="nav-elem">&emsp;&emsp;&emsp;/&emsp;&emsp;</div>
+            <div className="nav-elem"><a onClick = {this.joinClick}>Join</a></div>
           </nav>
         </header>
       </div>
